@@ -1,3 +1,20 @@
+Food Ordering App
+
+Features:  
+    Add to cart functionality
+    Shopping cart functionality
+    Product Filtering functionality
+    Product page
+    Cart and checkout page
+    Contact page
+    Awesome modern minimalist UI
+Technologies Used:
+    React.js
+    Redux Toolkit
+    ReactStrap
+    CSS
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
