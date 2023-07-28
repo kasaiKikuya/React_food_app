@@ -5,7 +5,7 @@ import Home from "../pages/Home";
 import AllFoods from "../pages/AllFoods";
 import FoodDetails from '../pages/FoodDetails';
 import Pizzas from "../pages/Pizzas";
-import PizzaDetails from "../pages/PizzaDetails";
+//import PizzaDetails from "../pages/PizzaDetails";
 import Cart from "../pages/Cart";
 import Checkout from "../pages/Checkout";
 import Contact from '../pages/Contact';

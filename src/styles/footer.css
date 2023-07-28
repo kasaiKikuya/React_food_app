@@ -1,5 +1,6 @@
 .footer {
-  padding: 50px 0px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   background: #fde4e4;
   display: flex;
   text-align: start;
@@ -36,6 +37,7 @@
   font-weight: 600;
   color: #212245;
   margin: 0;
+  font-size: 1rem;
 }
 
 .delivery__time-item p {
@@ -48,6 +50,45 @@
   font-weight: 600;
 }
 
+.newsletter{
+  padding:  5px;
+  border: 1px solid #212245;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  cursor: pointer;
+}
+.newsletter input{
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.newsletter input:focus{
+  outline: none;
+}
+
+.newsletter span{
+  background: #df2020;
+}
+.newsletter span i{
+  color: #fff;
+  padding: 7px 30px;
+  border-radius: 5px;
+}
+.newsletter  input::placeholder{
+  columns: #212245;
+}
+.social_links span i{
+  padding: 5px;
+  background: #df2020;
+  color: #fff;
+  border-radius: 50%;
+}
+.copyright_text{
+  font-size: .8rem;
+  color: #df2020;
+}
 @media only screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
