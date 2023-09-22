@@ -48,7 +48,8 @@ const featureData = [
 const Home = () => {
   const [category, setCategory] = useState("ALL");
   const [allProducts, setAllProducts] = useState(products);
-  const [hotPizza, setHotPizzza] = useState([]);
+  const [
+    hotPizza, setHotPizzza   ] = useState([]);
 
   useEffect(() => {
     const filterdPizza = products.filter((item) => item.category === "Pizza");
@@ -135,11 +136,9 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
       <section className="pt-0">
         <Category />
       </section>
-
       <section>
         <Container>
           <Row>
@@ -147,7 +146,7 @@ const Home = () => {
               <h5 className="feature_subtitle mb-4">What we serve </h5>
               <h2 className="feature_title">Just sit back at home </h2>
               <h2 className="feature_title">
-                we will<span>take care</span>
+                we will <span> take care</span>
               </h2>
               <p className="mt-4 mb-1 feature_text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil
@@ -160,7 +159,7 @@ const Home = () => {
             </Col>
 
             {featureData.map((item, index) => (
-              <Col lg="4" md="6" sm='6'   key={index} className="mt-5">
+              <Col lg="4" md="6" sm="6" key={index} className="mt-5">
                 <div className="feature_item text-center px-5 py-3">
                   <img
                     src={item.imgUrl}
@@ -175,7 +174,6 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-
       <section>
         <Container>
           <Row>
@@ -222,14 +220,13 @@ const Home = () => {
             </Col>
 
             {allProducts.map((item) => (
-              <Col lg="3" md="4" sm='6' xs='6' key={item.id} className="mt-5">
+              <Col lg="3" md="4" sm="6" xs="6" key={item.id} className="mt-5">
                 <ProductCard item={item} />
               </Col>
             ))}
           </Row>
         </Container>
       </section>
-
       <section className="why_choose-us">
         <Container>
           <Row>
@@ -289,11 +286,12 @@ const Home = () => {
         </Container>
       </section>
 
-      <section>
+      <section //Hot Pizza//
+      >
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2>Hot Pizza</h2>
+              <h2> </h2>
             </Col>
 
             {hotPizza.map((item) => (

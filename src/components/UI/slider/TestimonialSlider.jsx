@@ -20,7 +20,7 @@ const TestimonialSlider = () => {
   return (
     <Slider {...settings}>
       <div>
-        <p className="review_text">
+        <p className="review_text d-flex align-items-center gap-3">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
           dicta iusto magnam consectetur quas labore sed praesentium quam non
           mollitia.
@@ -32,7 +32,7 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <div>
-          <p className="review_text">
+          <p className="review_text d-flex align-items-center gap-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
             dicta iusto magnam consectetur quas labore sed praesentium quam non
             mollitia.
@@ -45,7 +45,7 @@ const TestimonialSlider = () => {
       </div>
       <div>
         <div>
-          <p className="review_text">
+          <p className="review_text d-flex align-items-center gap-3">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
             dicta iusto magnam consectetur quas labore sed praesentium quam non
             mollitia.
