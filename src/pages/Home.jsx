@@ -48,13 +48,12 @@ const featureData = [
 const Home = () => {
   const [category, setCategory] = useState("ALL");
   const [allProducts, setAllProducts] = useState(products);
-  const [
-    hotPizza, setHotPizzza   ] = useState([]);
+  const [hotPizza, setHotPizzza ] = useState([]);
 
   useEffect(() => {
-    const filterdPizza = products.filter((item) => item.category === "Pizza");
+    const filterdPizza = products.filter(item => item.category === "Pizza");
     const slicePizza = filterdPizza.slice(0, 4);
-    setCategory(slicePizza);
+     setHotPizzza(slicePizza);
   }, []);
   useEffect(() => {
     if (category === "ALL") {
@@ -286,12 +285,12 @@ const Home = () => {
         </Container>
       </section>
 
-      <section //Hot Pizza//
+      <section 
       >
         <Container>
           <Row>
             <Col lg="12" className="text-center">
-              <h2> </h2>
+              <h2> Hot Pizza</h2>
             </Col>
 
             {hotPizza.map((item) => (
